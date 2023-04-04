@@ -1,0 +1,32 @@
+.block2{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  background-color: var(--colorNeutral-800);
+  color: var(--colorNeutral-400);
+}
+
+.block2 h2{
+  color: var(--colorPrimary);
+  font-size: 2rem;
+}
+
+.block2 div{
+  display: grid;
+  row-gap: .5rem;
+  padding-block: 1rem;
+}
+
+.block2 div h3 a{
+  color: var(--colorNeutral-200);
+}
+
+.block2 div h3 a:hover{
+  color: var(--colorPrimary);
+  transition: color 200ms ease-in;
+}
+  
+/* Le da un borde a la parte inferior (menos al ultimo) */
+.block2 div:not(:last-child){
+  border-bottom: 1px solid var(--colorNeutral-400);
+}

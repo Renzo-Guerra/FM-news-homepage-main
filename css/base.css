@@ -1,0 +1,48 @@
+:root{
+  --colorPrimary: hsl(35, 77%, 62%);
+  --colorSecondary: hsl(5, 85%, 63%);
+  --colorNeutral-200: hsl(36, 100%, 99%);
+  --colorNeutral-400: hsl(233, 8%, 79%);
+  --colorNeutral-600: hsl(236, 13%, 42%);
+  --colorNeutral-800: hsl(240, 100%, 5%);
+  --fontFam: 'Inter', sans-serif;
+  --fontWeight-200: 400; 
+  --fontWeight-500: 700; 
+  --fontWeight-800: 800; 
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+  line-height: 110%;
+  font-family: var(--fontFam);
+  font-weight: var(--fontWeight-800);
+}
+
+h1{
+  font-size: 2.8rem;
+}
+
+p{
+  line-height: 140%;
+  font-family: var(--fontFam);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-family: var(--fontFam);
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  font-family: var(--fontFam);
+}

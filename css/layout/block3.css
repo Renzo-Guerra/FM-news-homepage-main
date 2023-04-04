@@ -1,0 +1,44 @@
+.block3{
+  display: grid;
+  gap: 2rem;
+}
+
+.block3 article{
+  display: flex;
+}
+
+.block3 article img{
+  width: 7rem;
+  object-fit: cover;
+}
+.block3 article div{
+  display: grid;
+  /* background-color: aqua; */
+  padding-left: 1.3rem;
+} 
+
+.block3 article div span{
+  font-size: 2rem;
+  color: var(--colorNeutral-400);
+}
+
+
+.block3 article div h3 a{
+  color: var(--colorNeutral-800);
+}
+
+
+.block3 article div h3 a:hover{
+  color: var(--colorSecondary);
+  transition: background 300ms ease-out;
+}
+
+.block3 article div p{
+  color: var(--colorNeutral-600);
+}
+
+@media screen and (min-width: 800px){
+  .block3{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

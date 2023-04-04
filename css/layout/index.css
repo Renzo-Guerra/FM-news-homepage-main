@@ -1,0 +1,28 @@
+@import './header.css';
+@import './block1.css';
+@import './block2.css';
+@import './block3.css';
+@import './footer.css';
+
+.mainContainer{
+  display: grid;
+  padding-inline: 1rem;
+  row-gap: 2rem;
+}
+
+.container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 800px){
+  .mainContainer{
+    max-width: 60rem;
+    margin-inline: auto;
+  }
+
+  .container{
+    grid-template-columns: 2fr 1fr;
+  }
+}
