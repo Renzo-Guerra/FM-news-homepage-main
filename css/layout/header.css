@@ -16,7 +16,6 @@ nav{
   height: 100vh;
   width: 65%;
   background-color: var(--colorPrimary);
-  transition: transform 400ms ease-in;
 }
 
 .hidden{
@@ -70,7 +69,6 @@ nav button{
     height: auto;
     width: auto;
     background-color: unset;
-    /* transition: transform 400ms ease-in; */
   } 
 
   nav ul{
