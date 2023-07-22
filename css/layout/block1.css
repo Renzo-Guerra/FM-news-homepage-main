@@ -5,8 +5,18 @@
   color: var(--colorNeutral-600);
 }
 
+.block1 .img-container{
+  overflow: hidden;
+}
 .block1 img{
+  object-fit: cover;
   width: 100%;
+  height: 100%;
+  transition: scale ease-in-out 200ms;
+}
+
+.block1 img:hover{
+  scale: 1.04;
 }
 
 .block1 .design1{ 
